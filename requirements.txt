@@ -1,0 +1,15 @@
+langgraph
+tenacity
+requests
+playwright
+termcolor
+python-dotenv
+httpx
+nest_asyncio
+MainContentExtractor
+ratelimit
+pyaudio
+pyperclip
+keyboard
+pydantic
+youtube-transcript-api
