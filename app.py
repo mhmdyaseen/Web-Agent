@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-google_api_key='AIzaSyCLXTJO5XG3oW_Y3ubAjojYNxbkyX9Mrmg'
+google_api_key=os.getenv('GOOGLE_API_KEY')
 groq_api_key=os.getenv('GROQ_API_KEY')
 browser_instance_dir=os.getenv('BROWSER_INSTANCE_DIR')
 user_data_dir=os.getenv('USER_DATA_DIR')
